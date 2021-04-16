@@ -20,7 +20,7 @@ namespace Prototype.ConcreteColor
             return MemberwiseClone() as ColorPrototype;
         }
 
-        public void Show()
+        public override void Show()
         {
             Console.WriteLine($"Color ({_red},{_green},{_blue})");
         }
