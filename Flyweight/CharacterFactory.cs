@@ -4,8 +4,7 @@ namespace Flyweight
 {
     class CharacterFactory
     {
-        private readonly Dictionary<char, Character> _characters =
-            new();
+        private readonly Dictionary<char, Character> _characters = new();
 
         public Character GetCharacter(char key)
         {
